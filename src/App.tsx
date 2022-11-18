@@ -19,16 +19,15 @@ const theme = extendTheme({ colors });
 
 function App() {
   return (
-    <div>test</div>
-    // <ChakraProvider theme={theme}>
-    //   <Global styles={SetCss} />
-    //   <BrowserRouter>
-    //     <Routes>
-    //       <Route index element={<Home />} />
-    //       <Route path={RoutingPath.cssInit} element={<CssInit />} />
-    //     </Routes>
-    //   </BrowserRouter>
-    // </ChakraProvider>
+    <ChakraProvider theme={theme}>
+      <Global styles={SetCss} />
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path={RoutingPath.cssInit} element={<CssInit />} />
+        </Routes>
+      </BrowserRouter>
+    </ChakraProvider>
   );
 }
 
