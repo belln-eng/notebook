@@ -1,18 +1,20 @@
+const repositoryName = '/belln-eng/notebook';
+
 export const RoutingPath = {
   // ホーム
-  home: '/',
+  home: `${repositoryName}/`,
   // 初期設定編
-  cssInit: '/css-init',
+  cssInit: `${repositoryName}/css-init`,
   // Sassの導入
-  useSass: '/use-sass',
+  useSass: `${repositoryName}/use-sass`,
   //  汎用ファイル
-  genericFiles: '/generic-files',
+  genericFiles: `${repositoryName}/generic-files`,
   // セットCSS
-  setCss: '/set-css',
+  setCss: `${repositoryName}/set-css`,
   // 単位について
-  aboutUnit: '/about-unit',
+  aboutUnit: `${repositoryName}/about-unit`,
   // レイアウトについて
-  aboutLayout: 'about-layout',
+  aboutLayout: `${repositoryName}about-layout`,
   // 便利ツール
-  usefulTools: '/useful-tools',
+  usefulTools: `${repositoryName}/useful-tools`,
 };
