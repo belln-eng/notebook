@@ -1,4 +1,4 @@
-const repositoryName = '/belln-eng/notebook';
+const repositoryName = '/notebook';
 
 export const RoutingPath = {
   // ホーム
