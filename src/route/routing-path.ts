@@ -1,4 +1,4 @@
-const repositoryName = '/notebook';
+const repositoryName = 'notebook';
 
 export const RoutingPath = {
   // ホーム
